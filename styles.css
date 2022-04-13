@@ -1,22 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
 .container {
-    width: max-content;
-    margin: 20px auto;
-  }
+  width: 1170px;
+  margin: 20px auto;
+}
+
+ /* heder */
+
+.header-list {
+  padding-left: 0;
+  display: flex;
   
-  .header-list {
-    padding-left: 0;
-    display: flex;
-    
-  }
-  
-  .header-list-item {
-    margin: auto;
-    list-style-type: none;
-    margin-right: 45px;
-  }
-  
-  .line {
-    width: 1px;
-    height: 50px;
-    background: #E1E1E1;
-  }
+}
+
+.header-list-item {
+  margin: auto;
+  margin-right: 45px;
+}
+
+.line {
+  width: 1px;
+  height: 50px;
+  background: #E1E1E1;
+}
+
+/* About us */
+
+.about-us-text {
+  width: 888px;
+}
+
+/* Services */
+
+.servisec-list {
+  font-size: 0;
+}
+
+.servisec-list-item {
+  font-size: 14px;
+  display: inline-block;
+  width: 573px;
+  height: 330px;
+  margin-right: 23px;
+  position: relative;
+}
+
+.servisec-list-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.item1 {
+  background-image: url(./img/servisec1.jpg);
+  background-repeat: no-repeat;
+}
+
+.item2 {
+  background-image: url(./img/servisec2.jpg);
+  background-repeat: no-repeat;
+}
+
+.item3 {
+  background-image: url(./img/servisec3.jpg);
+  background-repeat: no-repeat;
+}
+
+.item4 {
+  background-image: url(./img/servisec4.jpg);
+  background-repeat: no-repeat;
+}
+
+.block {
+  position: absolute;
+  top: 191px;
+  left: 45px;
+}
+/* Advantages */
+
+.advantages-text {
+  width: 188px;
+}
+
+.advantages-list {
+  font-size: 0;
+}
+
+.advantages-list-item {
+  width: 275px;
+  height: 275px;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 23px;
+}
+
+.advantages-list-item:nth-child(4n) {
+  margin-right: 0;
+}
+
