@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* margin: 0; */
 }
 
 .list {
@@ -29,6 +30,33 @@
   width: 1px;
   height: 50px;
   background: #E1E1E1;
+}
+
+
+/* Special-offers */
+
+.sp-block1 {
+  width: 573px;
+  height: 258px;
+  background-image: url(./img/Special-offers1.jpg);
+}
+
+.sp-block2 {
+  width: 573px;
+  height: 258px;
+  background-image: url(./img/Special-offers2.jpg);
+}
+
+.sp-block {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.sp-block3 {
+  display: inline-block;
+  width: 573px;
+  height: 540px;
+  background-image: url(./img/Special-offers3.jpg);
 }
 
 /* About us */
@@ -103,3 +131,21 @@
   margin-right: 0;
 }
 
+/* Accommodation */
+
+.accommodation-list {
+  font-size: 0;
+}
+
+.accommodation-list-item {
+  font-size: 14px;
+  width: 374px;
+  height: 440px;
+  display: inline-block;
+  margin-right: 23px;
+  vertical-align: top;
+}
+
+.accommodation-list-item:nth-child(3n) {
+  margin-right: 0;
+}
