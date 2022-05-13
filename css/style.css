@@ -109,8 +109,31 @@ body {
   margin-right: 23px;
 }
 
+.special-second-title {
+  margin-bottom: 15px;
+}
+
+.special-text {
+  margin-bottom: 47px;
+}
+
+.special {
+  margin-bottom: 70px;
+}
+
 /* about-us */
 
+.about-us-title {
+  margin-bottom: 11px;
+}
+
+.about-us-text {
+  max-width: 888px;
+}
+
+.about-us {
+  margin-bottom: 70px;
+}
 
 
 /* servisec */
@@ -127,6 +150,14 @@ body {
 
 .servisec-list-item:not(:nth-child(2n)) {
   margin-right: 23px;
+}
+
+.servisec-title {
+  margin-bottom: 20px;
+}
+
+.servisec {
+  margin-bottom: 70px;
 }
 
 
@@ -147,6 +178,10 @@ body {
   margin-right: 23px;
 }
 
+.advantages {
+  margin-bottom: 70px;
+}
+
 
 
 /* accommodation */
@@ -162,4 +197,8 @@ body {
 
 .accommodation-list-item:not(:nth-child(3n)) {
   margin-right: 23px;
+}
+
+.accommodation {
+  margin-bottom: 70px;
 }
