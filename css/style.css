@@ -156,6 +156,11 @@ body {
   margin-bottom: 20px;
 }
 
+.servisec-link {
+  display: block;
+  margin-bottom: 5px;
+}
+
 .servisec {
   margin-bottom: 70px;
 }
@@ -178,6 +183,13 @@ body {
   margin-right: 23px;
 }
 
+.advantages-title {
+  margin-bottom: 30px;
+}
+
+.advantages-text {
+  max-width: 188px;
+}
 .advantages {
   margin-bottom: 70px;
 }
@@ -197,6 +209,35 @@ body {
 
 .accommodation-list-item:not(:nth-child(3n)) {
   margin-right: 23px;
+}
+
+.accommodation-title {
+  margin-bottom: 30px;
+}
+
+.accommodation-img {
+  margin-bottom: 36px;
+}
+
+.accommodation-block {
+  margin-left: 45px;
+  margin-bottom: 41px;
+}
+
+.accommodation-text {
+  margin-bottom: 16px;
+}
+
+.accom-text {
+  margin-bottom: 20px;
+}
+
+.accommodation-block-text {
+  margin-bottom: 16px;
+}
+
+.price {
+  margin-right: 43px;
 }
 
 .accommodation {
