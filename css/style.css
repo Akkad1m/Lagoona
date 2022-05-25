@@ -101,20 +101,55 @@ body {
 
 .special-item {
   width: 573px;
-  /* outline: 1px solid coral; */
+  border: 1px solid transparent;
+  border-radius: 15px;
   margin-bottom: 23px;
+  padding-top: 40px;
+  /* padding-left: 40px; */
+  padding-bottom: 40px;
+}
+
+.item-right {
+  padding-top: 211px;
 }
 
 .special-block:not(:last-child) {
   margin-right: 23px;
 }
 
+.asd {
+  padding-left: 40px;
+}
+
 .special-second-title {
   margin-bottom: 15px;
+  max-width: 300px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
 }
 
 .special-text {
   margin-bottom: 47px;
+}
+
+.special-img1 {
+  background-image: url('../img/Special-offers1.jpg');
+  background-repeat: no-repeat;
+  background-size: 573px 258px;
+}
+
+.special-img2 {
+  background-image: url('../img/Special-offers2.jpg');
+  background-repeat: no-repeat;
+  background-size: 573px 258px;
+}
+
+.special-img3 {
+  background-image: url('../img/Special-offers3.jpg');
+  background-repeat: no-repeat;
+  background-size: 573px 540px;
 }
 
 .special {
@@ -159,6 +194,10 @@ body {
 .servisec-link {
   display: block;
   margin-bottom: 5px;
+}
+
+.servisec-text {
+  max-width: 402px;
 }
 
 .servisec {
